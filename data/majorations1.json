@@ -1,0 +1,4 @@
+[
+    "Consigne : on demande de répondre «Vrai» si la majoration est vraie ET bien définie pour tout entier naturel non nul $n\\in\\mathbb{N}^*$. Si la majoration n'est pas toujours vraie, ou qu'il y a un problème de définition, on demande de répondre «Faux»." ,
+    {"statement": "$\\dfrac{1}{n(n+1)} \\leq \\dfrac{1}{n^2}$.","answer":true}
+]

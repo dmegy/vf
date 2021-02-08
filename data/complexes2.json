@@ -1,0 +1,22 @@
+[
+    "Calculs simples sur les arguments. L'objectif est d'abord de réussir un sans-faute (quitte à utiliser un brouillon) et seulement alors d'augmenter sa rapidité.",
+    {"answer": true,"statement": "Un argument de $-\\sqrt{3}+3i$ est $2\\pi/3$."},
+    {"answer": true,"statement": "Un argument de $3-i\\sqrt{3}$ est $-\\pi/6$."},
+    {"answer": true,"statement": "Un argument de $\\sqrt 2 + i \\sqrt 6$ est $\\pi/3$."},
+    {"answer": true,"statement": "Un argument de $-\\sqrt 3+i$ est $5\\pi/6$."},
+    {"answer": true,"statement": "Un argument de $-1-i\\sqrt 3$ est $-2\\pi/3$."},
+    {"answer": true,"statement": "Un argument de $\\sqrt{3}+i$ est $\\pi/6$."},
+    {"answer": false,"statement": "Un argument de $3+i\\sqrt{3}$ est $\\pi/3$."},
+    {"answer": false,"statement": "Un argument de $-1-i\\sqrt{3}$ est $5\\pi/6$."},
+    {"answer": false,"statement": "Un argument de $-\\sqrt 3-i$ est $-2\\pi/3$."},
+    {"answer": false,"statement": "Un argument de $-3+i\\sqrt 3$ est $2\\pi/3$"},
+    {"answer": true,"statement": "Un argument de $\\frac{1}{2}+i\\frac{\\sqrt 3}{2}$ est $7\\pi/3$."},
+    {"answer": true,"statement": "Un argument de $-\\frac{1}{2}+i\\frac{\\sqrt 3}{2}$ est $-4\\pi/3$."},
+    {"answer": false,"statement": "Un argument de $-\\frac{\\sqrt 3}{2}+\\frac{i}{2}$ est $7\\pi/6$."},
+    {"answer": false,"statement": "Un argument de $-\\frac{1}{2}-i\\frac{\\sqrt 3}{2}$ est $2\\pi/3$."},
+    {"answer": true,"statement": "Un argument de $1-i$ est $7\\pi/4$."},
+    {"answer": true,"statement": "Un argument de $-1+i$ est $-5\\pi/4$."},
+    {"answer": false,"statement": "Un argument de $1+i$ est $5\\pi/4$."},
+    {"answer": true,"statement": "Un argument de $2i$ est $10\\pi/4$."},
+    {"answer": false,"statement": "Un argument de $-3i$ est $9\\pi/2$."}
+]

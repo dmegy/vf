@@ -1,0 +1,51 @@
+[
+	"16 questions de calcul mental et de logique de niveau élémentaire.",
+	{
+		"answer": true, "statement": "$8\\times 7 = 56$ et $6\\times 9 = 54$."
+	},
+	{
+		"answer": true, "statement": "$8\\times 7 = 56$ ou $6\\times 9 = 54$."
+	},
+	{
+		"answer": true, "statement": "$7\\times 8 = 56$ et $9\\times 7 = 63$."
+	},
+	{
+		"answer": true, "statement": "$7\\times 8 = 56$ et $9\\times 7 = 63$."
+	},
+	{
+		"answer": false, "statement": "$8\\times 7 = 56$ et $9\\times 6 = 53$."
+	},
+	{
+		"answer": true, "statement": "$8\\times 7 = 56$ ou $9\\times 6 = 53$."
+	},
+	{
+		"answer": false, "statement": "$6\\times 8 = 56$ et $9\\times 8 = 72$."
+	},
+	{
+		"answer": false, "statement": "$9\\times 5 = 40$ et $8\\times 6 = 48$."
+	},
+	{
+		"answer": false, "statement": "$8\\times 9 = 73$ et $9\\times 9 = 81$."
+	},
+	{
+		"answer": true, "statement": "$8\\times 9 = 73$ ou $9\\times 9 = 81$."
+	},
+	{
+		"answer": true, "statement": "$6\\times 7 = 42$ ou $9\\times 5 = 40$."
+	},
+	{
+		"answer": true, "statement": "$7\\times 7 = 49$ ou $5\\times 5 = 35$."
+	},
+	{
+		"answer": false, "statement": "$8\\times 8 = 64$ et $9\\times 6 = 48$."
+	},
+	{
+		"answer": false, "statement": "$6\\times 8 = 56$ et $9\\times 9 = 81$."
+	},
+	{
+		"answer": false, "statement": "$9\\times 6 = 73$ et $8\\times 3 = 24$."
+	},
+	{
+		"answer": true, "statement": "$8\\times 5 = 40$ ou $6\\times 7 = 42$."
+	}
+]

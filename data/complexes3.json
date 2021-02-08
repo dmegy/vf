@@ -1,0 +1,97 @@
+[
+    "CONSIGNE : les lettres non définies ($z$, $z'$, $w$ etc) désignent des nombres complexes. On demande de répondre 'VRAI' uniquement si l'assertion est universellement vraie, quelque soient les éventuels paramètres, et de répondre 'FAUX' dans le cas contraire. Par exemple, on répondra 'FAUX' à $|z|=|z|^2$ car même si ça peut exceptionnellement être vrai (pour $z=0$ par exemple), c'est en général faux.",
+    {
+        "answer": true, 
+        "statement": "$|zw|= |z|\\,|w|$."
+    },
+    {
+        "answer": true, 
+        "statement": "$\\overline{zw}= \\overline z \\, \\overline w$."
+    },
+    {
+        "answer": true, 
+        "statement": "$\\overline{z+w}= \\overline z + \\overline w$."
+    },
+    {
+        "answer": true, 
+        "statement": "$Re(z+w)= Re(z)+Re(w)$."
+    },
+    {
+        "answer": false, 
+        "statement": "$Re(zw)= Re(z)Re(w)$."
+    },
+    {
+        "answer": false, 
+        "statement": "$Im(zw)= Im(z)Im(w)$."
+    },
+    {
+        "answer": true, 
+        "statement": "$Re(z)= \\dfrac{z+\\overline z}{2}$."
+    },
+    {
+        "answer": false, 
+        "statement": "$Im(z)= \\dfrac{z-\\overline z}{2}$."
+    },
+    {
+        "answer": true, 
+        "statement": "$|z+w|\\leq |z|+|w|$."
+    },
+    {
+        "answer": false, 
+        "statement": "$|z+w|< |z|+|w|$."
+    },
+    {
+        "answer": false, 
+        "statement": "$|z+w|=|z|+|w|$."
+    },
+    {
+        "answer": false, 
+        "statement": "$|z+w|\\geq |z|+|w|$."
+    },
+    {
+        "answer": true, 
+        "statement": "$Re(z)\\leq |z|$."
+    },
+    {
+        "answer": true, 
+        "statement": "$|Re(z)|=|z| \\iff z\\in \\mathbb R$."
+    },
+    {
+        "answer": true, 
+        "statement": "$Re(z)=|z| \\iff z\\in \\mathbb R_{+}$."
+    },
+    {
+        "answer": true, 
+        "statement": "$|Re(z)|\\leq |z|$.",
+        "comment": "Dans un triangle rectangle, l'hypoténuse est supérieure aux côtés."
+    },
+    {
+        "answer": true, 
+        "statement": "$|Re(z\\overline w)|\\leq |zw|$.",
+        "comment": "Aussi appelée inégalité de Cauchy-Schwarz."
+    },
+    {
+        "answer": true, 
+        "statement": "$|z+w|= |z|+|w| \\iff z\\overline{w} \\in \\mathbb R_{+}$."
+    },
+    {
+        "answer": true, 
+        "statement": "$|z+w|= |z|+|w| \\iff (w=0$ ou $\\exists \\lambda \\in \\mathbb R_{+}, z=\\lambda w)$."
+    },
+    {
+        "answer": true, 
+        "statement": "$|z+w|^2= |z|^2+2Re(z\\overline w)+|w|^2$."
+    },
+    {
+        "answer": false, 
+        "statement": "$|z+w|^2= |z|^2+2|zw|+|w|^2$."
+    },
+    {
+        "answer": false, 
+        "statement": "$|z+w|^2= |z|^2+2|z\\overline w|+|w|^2$."
+    },
+    {
+        "answer": false, 
+        "statement": "$|z+w|^2= |z|^2+2Re(zw)+|w|^2$."
+    }
+]

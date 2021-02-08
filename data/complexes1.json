@@ -1,0 +1,169 @@
+[
+    "36 questions. Calculs très simples sous forme algébrique. L'objectif est d'abord de réussir un sans-faute (quitte à utiliser un brouillon lors des premiers essais) et seulement alors d'augmenter sa rapidité.",
+    {
+        "answer": true,
+        "statement": "$(1 + i)(1 + i)=2i$"
+    },
+    {
+        "answer": false,
+        "statement": "$(1 + i)(1 - i)=-2$",
+        "comment": "Le produit vaut $2$"
+    },
+    {
+        "answer": false,
+        "statement": "$(1 + i)(2 + i)=-1 + 3i$",
+        "comment": "Le produit vaut $1 + 3i$"
+    },
+    {
+        "answer": true,
+        "statement": "$(1 + i)(1 + 2i)=-1 + 3i$"
+    },
+    {
+        "answer": false,
+        "statement": "$(1 + i)(1 - 2i)=-3 - i$",
+        "comment": "Le produit vaut $3 - i$"
+    },
+    {
+        "answer": false,
+        "statement": "$(1 + i)(3 + i)=2 - 4i$",
+        "comment": "Le produit vaut $2 + 4i$"
+    },
+    {
+        "answer": false,
+        "statement": "$(1 + i)(3 - 2i)=5 - i$",
+        "comment": "Le produit vaut $5 + i$"
+    },
+    {
+        "answer": false,
+        "statement": "$(1 + i)(1 + 3i)=2 + 4i$",
+        "comment": "Le produit vaut $-2 + 4i$"
+    },
+    {
+        "answer": true,
+        "statement": "$(1 - i)(1 - i)=-2i$"
+    },
+    {
+        "answer": false,
+        "statement": "$(1 - i)(2 + i)=-3 - i$",
+        "comment": "Le produit vaut $3 - i$"
+    },
+    {
+        "answer": false,
+        "statement": "$(1 - i)(1 + 2i)=-3 + i$",
+        "comment": "Le produit vaut $3 + i$"
+    },
+    {
+        "answer": false,
+        "statement": "$(1 - i)(1 - 2i)=1 - 3i$",
+        "comment": "Le produit vaut $-1 - 3i$"
+    },
+    {
+        "answer": false,
+        "statement": "$(1 - i)(3 + i)=-4 - 2i$",
+        "comment": "Le produit vaut $4 - 2i$"
+    },
+    {
+        "answer": true,
+        "statement": "$(1 - i)(3 - 2i)=1 - 5i$"
+    },
+    {
+        "answer": false,
+        "statement": "$(1 - i)(1 + 3i)=-4 + 2i$",
+        "comment": "Le produit vaut $4 + 2i$"
+    },
+    {
+        "answer": false,
+        "statement": "$(2 + i)(2 + i)=-3 + 4i$",
+        "comment": "Le produit vaut $3 + 4i$"
+    },
+    {
+        "answer": false,
+        "statement": "$(2 + i)(1 + 2i)=-5i$",
+        "comment": "Le produit vaut $5i$"
+    },
+    {
+        "answer": false,
+        "statement": "$(2 + i)(1 - 2i)=-4 - 3i$",
+        "comment": "Le produit vaut $4 - 3i$"
+    },
+    {
+        "answer": false,
+        "statement": "$(2 + i)(3 + i)=-5 + 5i$",
+        "comment": "Le produit vaut $5 + 5i$"
+    },
+    {
+        "answer": true,
+        "statement": "$(2 + i)(3 - 2i)=8 - i$"
+    },
+    {
+        "answer": false,
+        "statement": "$(2 + i)(1 + 3i)=-1 - 7i$",
+        "comment": "Le produit vaut $-1 + 7i$"
+    },
+    {
+        "answer": true,
+        "statement": "$(1 + 2i)(1 + 2i)=-3 + 4i$"
+    },
+    {
+        "answer": true,
+        "statement": "$(1 + 2i)(1 - 2i)=5$"
+    },
+    {
+        "answer": false,
+        "statement": "$(1 + 2i)(3 + i)=1 - 7i$",
+        "comment": "Le produit vaut $1 + 7i$"
+    },
+    {
+        "answer": true,
+        "statement": "$(1 + 2i)(3 - 2i)=7 + 4i$"
+    },
+    {
+        "answer": true,
+        "statement": "$(1 + 2i)(1 + 3i)=-5 + 5i$"
+    },
+    {
+        "answer": false,
+        "statement": "$(1 - 2i)(1 - 2i)=-3 + 4i$",
+        "comment": "Le produit vaut $-3 - 4i$"
+    },
+    {
+        "answer": true,
+        "statement": "$(1 - 2i)(3 + i)=5 - 5i$"
+    },
+    {
+        "answer": true,
+        "statement": "$(1 - 2i)(3 - 2i)=-1 - 8i$"
+    },
+    {
+        "answer": false,
+        "statement": "$(1 - 2i)(1 + 3i)=-7 + i$",
+        "comment": "Le produit vaut $7 + i$"
+    },
+    {
+        "answer": false,
+        "statement": "$(3 + i)(3 + i)=8 - 6i$",
+        "comment": "Le produit vaut $8 + 6i$"
+    },
+    {
+        "answer": true,
+        "statement": "$(3 + i)(3 - 2i)=11 - 3i$"
+    },
+    {
+        "answer": true,
+        "statement": "$(3 + i)(1 + 3i)=10i$"
+    },
+    {
+        "answer": false,
+        "statement": "$(3 - 2i)(3 - 2i)=5 + 12i$",
+        "comment": "Le produit vaut $5 - 12i$"
+    },
+    {
+        "answer": false,
+        "statement": "$(3 - 2i)(1 + 3i)=-9 + 7i$",
+        "comment": "Le produit vaut $9 + 7i$"
+    },
+    {
+        "answer": true,
+        "statement": "$(1 + 3i)(1 + 3i)=-8 + 6i$"
+    }
+]

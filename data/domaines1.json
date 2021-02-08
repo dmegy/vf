@@ -1,0 +1,87 @@
+[
+    "Les questions n'utilisent que du calcul littéral élémentaire, l'interdiction de diviser par zéro, et les identités remarquables. <br/>Dans toutes les questions, la lettre $x$ désigne une variable réelle et on demande le domaine de définition d'une expression contenant $x$, c'est-à-dire la plus grande partie de $\\mathbb R$ sur laquelle l'expression est définie. <br/>Terminologie : $A\\setminus B$ se lit «$A$ privé de $B$».",
+    {
+        "answer": true, 
+        "statement": "Le domaine de définition de l'expression $\\dfrac{x-1}{x+1}$ est $\\mathbb R \\setminus \\{-1\\}$."
+    },
+    {
+        "answer": false, 
+        "statement": "Le domaine de définition de l'expression $\\dfrac{x-1}{x+1}$ est $\\mathbb R \\setminus \\{0\\}$."
+    },
+    {
+        "answer": false, 
+        "statement": "Le domaine de définition de l'expression $\\dfrac{x}{x^2+1}$ est $\\mathbb R \\setminus \\{0\\}$."
+    },
+    {
+        "answer": true, 
+        "statement": "Le domaine de définition de l'expression $\\dfrac{2x-1}{(x+1)(x-2)}$ est $\\mathbb R \\setminus \\{-1,2\\}$."
+    },
+    {
+        "answer": false, 
+        "statement": "Le domaine de définition de l'expression $\\dfrac{2x-1}{(x+1)(x-2)}$ est $\\mathbb R \\setminus \\{-2,1\\}$."
+    },
+    {
+        "answer": false, 
+        "statement": "Le domaine de définition de l'expression $\\dfrac{3+x}{(x+1)(x-2)}$ est $\\mathbb R \\setminus [-1,2]$."
+    },
+    {
+        "answer": true, 
+        "statement": "Le domaine de définition de l'expression $\\dfrac{3x^2+x+1}{x+2}$ est $]-\\infty,-2[\\cup ]-2,+\\infty[$."
+    },
+    {
+        "answer": true, 
+        "statement": "Le domaine de définition de l'expression $\\dfrac{x+2}{x^2+2x+1}$ est $]-\\infty,-1[\\cup ]-1,+\\infty[$."
+    },
+    {
+        "answer": true, 
+        "statement": "Le domaine de définition de l'expression $\\dfrac{x+2}{x^2+2}$ est $\\mathbb R$."
+    },
+    {
+        "answer": false, 
+        "statement": "Le domaine de définition de l'expression $\\dfrac{x+2}{x^2+1}$ est $\\mathbb R \\setminus \\{-1,1\\}$."
+    },
+    {
+        "answer": true, 
+        "statement": "Le domaine de définition de l'expression $\\dfrac{2x-1}{x^2-6x+9}$ est $]-\\infty,3[\\cup ]3,+\\infty[$."
+    },
+    {
+        "answer": true, 
+        "statement": "Le domaine de définition de l'expression $\\dfrac{x^2+3}{x^2-1}$ est $\\mathbb R \\setminus \\{-1,1\\}$."
+    },
+    {
+        "answer": true, 
+        "statement": "Le domaine de définition de l'expression $\\dfrac{x^2-1}{x^2-4}$ est $\\mathbb R \\setminus \\{-2,2\\}$."
+    },
+    {
+        "answer": false, 
+        "statement": "Le domaine de définition de l'expression $\\dfrac{x^2-1}{x^2-4}$ est $]-\\infty,-2[\\cup]2,+\\infty[$."
+    },
+    {
+        "answer": true, 
+        "statement": "Le domaine de définition de l'expression $\\dfrac{1}{x^2-3x}$ est $\\mathbb R \\setminus \\{0,3\\}$."
+    },
+    {
+        "answer": false, 
+        "statement": "Le domaine de définition de l'expression $\\dfrac{x-2}{x^2-x}$ est $]-\\infty,0[\\cup ]1,+\\infty[$."
+    },
+    {
+        "answer": false, 
+        "statement": "Le domaine de définition de l'expression $\\dfrac{x-2}{x^2+2x}$ est $\\mathbb R \\setminus \\{0,2\\}$."
+    },
+    {
+        "answer": true, 
+        "statement": "Le domaine de définition de l'expression $\\dfrac{1}{3x^2+5x}$ est $\\mathbb R \\setminus \\{-5/3,0\\}$."
+    },
+    {
+        "answer": false, 
+        "statement": "Le domaine de définition de l'expression $\\dfrac{2+x}{2x^2+3x}$ est $\\mathbb R \\setminus \\{0,3/2\\}$."
+    },
+    {
+        "answer": false, 
+        "statement": "Le domaine de définition de l'expression $\\dfrac{2+x}{2x^2+3x}$ est $\\mathbb R \\setminus \\{0,-2/3\\}$."
+    },
+    {
+        "answer": false, 
+        "statement": "Le domaine de définition de l'expression $\\dfrac{x-1}{x+1}$ est $\\mathbb R \\setminus \\{1\\}$."
+    }
+]

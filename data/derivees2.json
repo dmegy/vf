@@ -1,0 +1,20 @@
+[
+	"Dérivées et primitives classiques sur le programme de terminale.",
+	{"statement":"La dérivée de $x\\mapsto x\\ln(x)-x$ est $x\\mapsto \\ln(x)$.","answer":true},
+	{"statement":"Une primitive de $x\\mapsto 1/x$ est $x\\mapsto \\ln|x|$.","answer":true},
+	{"statement":"$x\\mapsto -1/x^2$ est une primitive de $x\\mapsto 2/x^3$.","answer":true},
+	{"statement":"Une primitive de $x\\mapsto -1/x^3$ est $x\\mapsto 1/2x^2$.","answer":true},
+	{"statement":"Une primitive de $x\\mapsto 1/x^3$ est $x\\mapsto -2/x^2$.","answer":false},
+	{"statement":"$x\\mapsto 2/x^2$ est une primitive de $x\\mapsto 1/x^3$.","answer":false},
+	{"statement":"La dérivée seconde de $x\\mapsto \\ln(x)$ est $x\\mapsto -1/x^2$.","answer":true},
+	{"statement":"$x\\mapsto \\sin(x)$ est une primitive de $x\\mapsto \\cos(x)$.","answer":true},
+	{"statement":"Une primitive de $x\\mapsto \\sin(x)$ est $x\\mapsto -\\cos(x)$.","answer":true},
+	{"statement":"Une primitive de $x\\mapsto \\cos(x)$ est $x\\mapsto -\\sin(x)$.","answer":false},
+	{"statement":"$(g \\circ f)' = (g' \\circ f )\\times f'$.","answer":true},
+    {"statement":"Si $f : \\mathbb R \\to \\mathbb R^*_+$ est dérivable, $\\sqrt f$ est dérivable.","answer":true},
+    {"statement":"Si $f : \\mathbb R \\to \\mathbb R_+$ est dérivable, $\\sqrt f$ est dérivable.","answer":false,"comment":"Prendre $x\\mapsto x^2$."},
+    {"statement":"Si $f : \\mathbb R \\to \\mathbb R_+^*$ est dérivable, la dérivée de $\\ln f$ est $\\frac{f'}{f}$.","answer":true},
+    {"statement":"Si $f : \\mathbb R \\to \\mathbb R^*$ est dérivable, une primitive de $\\frac{f'}{f}$ est $\\ln |f|$.","answer":true},
+    {"statement":"Si $f : \\mathbb R \\to \\mathbb R^*$ est dérivable, une primitive de $\\frac{f'}{f}$ est $\\ln f$.","answer":false,"comment":"Attention au logarithme."},
+    {"statement":"Si $f : \\mathbb R \\to \\mathbb R^*_+$ est dérivable, une primitive de $\\frac{f'}{f}$ est $\\ln f$.","answer":true}
+]

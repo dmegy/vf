@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Quiz de Mathématiques: questionnaires vrai ou  faux de niveau L1, Terminale S, maths sup">
+    <meta name="author" content="Damien Mégy">
+    <meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:site" content="@ClubMathNancy">
+	<meta name="twitter:creator" content="@ClubMathNancy">
+	<meta name="twitter:title" content="Appli de Quiz Vrai/Faux">
+	<meta name="twitter:description" content="Questionnaires niveau lycée et bac+1 : calcul mental, calcul littéral, équations, trigonométrie, nombres complexes, fonctions, quantificateurs, logique, algèbre linéaire...">
+	<meta name="twitter:image" content="http://www.iecl.univ-lorraine.fr/~Damien.Megy/vf/twittercard.jpg">
+    <title>Quiz de Mathématiques  : instructions pour contribuer</title>
+		<!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">-->
+		<link rel="stylesheet" href="../css/bootstrap.min.css">
+  </head>
+  <body>
+	<!-- - - - - - B A R R E   D E   N A V I G A T I O N - - - - - -->
+	
+
+
+
+  <div class="container">
+  	<div class="col-xs-11 col-sm-8">
+  		<h1>Instructions pour contribuer à l'<a href="index.html">appli V/F</a></h1>
+  		<h3>Fonctionnement de l'appli</h3>
+  		Les questions de chaque thème sont enregistrées dans un fichier au format "json". Ce fichier est ensuite importé et traité automatiquement par l'application.
+  		<ul>
+  		<li>Exemples de fichiers json de thèmes : <a href="data/complexes1.json" target="_blank">Complexes (argument)</a>. (Cliquer pour visualiser dans le navigateur, ou bien clic droit>enregistrer.)</li>
+  		<li>Documentation sur le format json : <a href="https://www.json.org/json-fr.html">json.org</a>, ou bien <a href="https://fr.wikipedia.org/wiki/JavaScript_Object_Notation">wikipedia</a></li>
+  		</ul>
+
+		<h3>Comment m'envoyer sa contribution</h3>
+		<ul>
+			<li>Me prévenir qu'on va sans doute envoyer quelque chose, et préciser le thème, si possible. Ca m'aide à m'organiser et à gérer les potentiels autres contributeurs.</li>
+			<li>Préparer sa liste de questions à l'avance. Essayer d'éviter un trop gros déséquilibre sur la quantité de réponses correctes/incorrectes. </li>
+			<li>La longueur optimale est entre 20 et 40 questions. S'il y a trop de questions, il vaut mieux séparer en deux listes.  Dans ce cas, plutôt que d'essayer de faire deux listes semblables, il vaut mieux classer par difficulté ou bien distingueur des sous-thématiques différentes. Ceci évite d'avoir deux fichiers <code>mon_theme1</code> et <code>mon_theme2</code> difficilement distingables par les utilisateurs.</li>
+  		<li>Créer un fichier texte vide, le renommer en <code>mon_theme.json</code>.</li>
+  		<li>Le remplir avec le format suivant: le format commence et finit par des crochets entrants et fermants. A l'intérieur, des items sont séparés par des virgules. Le premier item est une description du thème. Il peut aussi servir à donner des consignes spéciales, comme le fait de demander de cocher faux si l'assertion est non seulement fausse, mais par exemple, n'est pas bien définie, ou n'a pas de sens. Ensuite, les items sont du type <code>{"statement":"blablabla","answer":true/false}</code>. On peut mettre la réponse avant ou après la question, du moment que les deux sont séparés par une virgule.
+  			<pre>[
+ "34 questions. Les formules de trigo de base doivent être sues par cœur.",
+ {"statement": "$\\cos(a+b)=\\cos(a)\\cos(b)-\\sin(a)\\sin(b)$.", "answer": true}, 
+ {"statement": "$\\cos(a+b)=\\sin(a)\\sin(b)+\\cos(a)\\cos(b)$.", "answer": false},
+ {"answer": true, "statement": "$\\cos(a-b)=\\cos(a)\\cos(b)+\\sin(a)\\sin(b)$."}
+]</pre>
+
+  			Avertissements :
+  			<ul>
+  				<li>Commencer et terminer par des crochets.</li>
+  				<li>Les caractères accentués sont autorisés.</li>
+  				<li>Pas de virgule après le dernier item.</li>
+  				<li>À l'intérieur des items, pas de virgule après le dernier sous-item.</li>
+  				<li>Il faut échapper les caractères spéciaux à l'aide d'antislashs, en particulier l'antislash lui-même : par exemple, un antislash devient un double antislash.</li>
+  				<li>Pas besoin de guillemets autour de <code>true</code> et <code>false</code></li>
+  			</ul>
+
+
+  		Optionnellement, on peut ajouter à chaque question un feedback, en rajoutant  <code>,"comment":"mon commentaire sur la réponse ou sur un piège classique"</code>. Par exemple :
+
+<pre>[
+ "34 questions. Les formules de trigo de base doivent être sues par cœur.",
+ {"statement": "$2+2=4$.", "answer": true}, 
+ {"statement": "$2-3=1$.", "answer": false, "comment":"Attention au signe!"},
+ {"statement": "$2-5=-3$.", "answer": true}
+]</pre>
+
+
+  		</li>
+  		<li>VALIDER le fichier, par exemple en allant sur <a href="https://jsonlint.com/">jsonlint.com</a> ou un autre validateur de fichier json. Ceci garantira que le fichier a le bon format : il est facile de faire des petites erreurs.</li>
+  		<li>M'envoyer le fichier :-)</li>
+  		</ul>
+  		<h2>Merci !</h2>
+  		<br/><br/>
+	</div> <!-- /colonne-->
+  </div> <!-- /container -->
+  
+
+	<style>
+		body {padding-top: 50px;}
+		.col-xs-12 {padding-left:0px; padding-right:0px;}
+		.emph {color:red;font-weight: bolder;}
+		.marge{margin-right: 5px;margin-bottom: 5px;margin-top:5px;}
+		a:hover{text-decoration:none;}
+		
+		.label-notify{
+   			position:relative;
+   			top: -15px;
+   			left: -35px;
+   			margin-right: -32px;
+		}
+	</style>
+  </body>
+</html>

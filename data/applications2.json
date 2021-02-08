@@ -1,0 +1,6 @@
+[
+    "Les mots 'fonction' et 'application' sont synonymes. Questions sur la composition d'applications.",
+    {"answer": true, "statement": "Si $f$ et $g$ sont surjectives et que $f\\circ g$ est bien définie, alors $f\\circ g$ est surjective."}, 
+    {"answer": false, "statement": "Si $f\\circ g$ est (bien définie et) injective, alors $f$ est injective."}, 
+    {"answer": true, "statement": "Si  $f\\circ g$ est (bien définie et) surjective, alors $f$ est surjective."}
+]

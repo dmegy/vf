@@ -1,0 +1,23 @@
+[
+    "Les questions n'utilisent que du calcul littéral élémentaire, l'interdiction de diviser par zéro, le symbole «racine carrée» et les identités remarquables. <br/>Dans toutes les questions, la lettre $x$ désigne une variable réelle et on demande le domaine de définition d'une expression contenant $x$, c'est-à-dire la plus grande partie de $\\mathbb R$ sur laquelle l'expression est définie et désigne un réel. ",
+    {"statement": "Le domaine de définition de l'expression $\\sqrt{x}$ est $[0,+\\infty[$.","answer":true},
+    {"statement": "Le domaine de définition de l'expression $\\sqrt{x+2}$ est $[0,+\\infty[$.","answer":false},
+    {"statement": "Le domaine de définition de l'expression $\\sqrt{x+2}$ est $[2,+\\infty[$.","answer":false},
+    {"statement": "Le domaine de définition de l'expression $\\sqrt{2x-6}$ est $[6,+\\infty[$.","answer":false},
+    {"statement": "Le domaine de définition de l'expression $\\sqrt{x+3}$ est $]3,+\\infty[$.","answer":false},
+    {"statement": "Le domaine de définition de l'expression $\\sqrt{x-1}$ est $]-1,+\\infty[$.","answer":false},
+    {"statement": "Le domaine de définition de l'expression $\\sqrt{x-4}$ est $]-\\infty,4]$.","answer":false},
+    {"statement": "Le domaine de définition de l'expression $\\sqrt{x-5}$ est $[5,+\\infty[$.","answer":true},
+    {"statement": "Le domaine de définition de l'expression $\\sqrt{3-x}$ est $]-\\infty,3]$.","answer":true},
+    {"statement": "Le domaine de définition de l'expression $\\sqrt{1-x}$ est $]-\\infty,-1]$.","answer":false},
+    {"statement": "Le domaine de définition de l'expression $\\dfrac{\\sqrt{x-1}}{\\sqrt{x+1}}$ est le même que celui de l'expression $\\sqrt{\\dfrac{x-1}{x+1}}$.","answer":false},
+    {"statement": "Le domaine de définition de l'expression $\\sqrt{x-1}\\sqrt{x+1}$ est le même que celui de l'expression $\\sqrt{(x-1)(x+1)}$.","answer":false},
+    {"statement": "Le domaine de définition de l'expression $\\dfrac{1}{\\sqrt{x-2}}$ est $[2,+\\infty[$.","answer":false},
+    {"statement": "Le domaine de définition de l'expression $\\dfrac{1}{\\sqrt{2x-6}}$ est $]3,+\\infty[$.","answer":true},
+    {"statement": "Le domaine de définition de l'expression $\\sqrt{\\sqrt{x-2}-1}$ est $[3,+\\infty[$.","answer":true},
+    {"statement": "Le domaine de définition de l'expression $\\sqrt{\\sqrt{x-1}-2}$ est $[3,+\\infty[$.","answer":false},
+    {"statement": "Le domaine de définition de l'expression $\\sqrt{\\sqrt{x-2}-2}$ est $[6,+\\infty[$.","answer":true},
+    {"statement": "Le domaine de définition de l'expression $\\sqrt{x^2-2}$ est $[-2,2]$.","answer":false},
+    {"statement": "Le domaine de définition de l'expression $\\sqrt{x^2-2}$ est $]-\\infty,-2]\\cup [2,+\\infty[$.","answer":false},
+    {"statement": "Le domaine de définition de l'expression $\\sqrt{x^2-1}$ est $]-\\infty,-1]\\cup [1,+\\infty[$.","answer":true}
+]

@@ -1,0 +1,13 @@
+[
+	"Dénombrement",
+	{"statement":"Entre $0$ et $100$ au sens large, il y a $50$ nombres pairs","answer":false},
+	{"statement":"Il y a $33$ multiples de trois entre $0$ et $100$ au sens large","answer":false},
+	{"statement":"Il y a $25$ multiples de quatre entre $0$ et $100$ au sens large", "answer":false},
+	{"statement":"Le mot 'QUIZ' possède $24$ anagrammes.","answer":true},
+	{"statement":"Le mot 'MATHS' possède $120$ anagrammes.","answer":true},
+	{"statement":"Le mot 'GAFA' possède $24$ anagrammes.","answer":false},
+	{"statement":"Le mot 'GAGA' possède $6$ anagrammes.","answer":true},
+	{"statement":"Le mot 'SOLO' possède $12$ anagrammes.","answer":true},
+	{"statement":"Il y a $12$ façons de disposer les symboles '2', '3', '5' et '+' de sorte à obtenir une expression qui désigne correctement un nombre (par exemple '23+5')","answer":true},
+	{"statement":"Entre $1$ et $99$ au sens large, il y a $81$ nombres qui ne comportent pas le chiffre $7$.","answer":false}	
+]

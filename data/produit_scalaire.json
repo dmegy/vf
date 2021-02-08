@@ -1,0 +1,14 @@
+[
+    "Géométrie du triangle.",
+    {"statement":"Soient $P$ et $Q$ deux points sur un cercle de diamètre $[AB]$. Alors on a $\\widehat{APB} = \\widehat{AQB}$.","answer": true},
+    {"statement":"Si $ABC$, si la médiane issue de $A$ mesure la moitié de la base $[BC]$, alors le triangle $ABC$ est rectangle.","answer": true},
+    {"statement":"Si $ABC$ est rectangle en $A$, alors le centre du cercle circonscrit est sur $[BC]$.","answer": true},
+    {"statement":"Si $ABC$ est rectangle en $A$, alors le centre du cercle circonscrit est le milieu de $[BC]$.","answer": true},
+    {"statement":"$ABC$ est rectangle en $A$ si et seulement si $AB^2+BC^2=AC^2$.","answer": false},
+    {"statement":"Si $AB^2+BC^2=AC^2$, alors $ABC$ est un triangle rectangle en $A$.","answer": false},
+    {"statement":"Si $ABC$ est isocèle, alors $AB=AC$.","answer": false},
+    {"statement":"Si les trois côtés de $ABC$ sont égaux, alors ses trois angles aussi.","answer": true},
+    {"statement":"Si les trois angles de $ABC$ sont égaux, alors ses trois côtés aussi.","answer": true},
+    {"statement":"Si dans $ABC$ la médiane issue de $A$ coïncide avec la bissectrice issue de $A$, alors $ABC$ est isocèle.","answer": true},
+    {"statement":"Si dans $ABC$ on a $\\widehat{ABC} = \\widehat{ACB}$, alors $AB=AC$.","answer": true}
+]

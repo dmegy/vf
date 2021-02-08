@@ -1,0 +1,23 @@
+[
+    "Calcul mental et littéral sur les fractions. Les lettres désignent des entiers qui peuvent être quelconques du moment que ça ne provoque pas une division par zéro.",
+    {"statement": "La fraction $\\dfrac{21}{34}$ est irréductible.","answer":true},
+    {"statement": "La fraction $\\dfrac{15}{123}$ est irréductible.","answer":false},
+    {"statement": "La fraction $\\dfrac{21}{33}$ est irréductible.","answer":false},
+    {"statement": "La fraction $\\dfrac{48}{39}$ est irréductible.","answer":false},
+    {"statement": "$\\dfrac{48}{70} \\leq \\dfrac{2}{3}$","answer":false},
+    {"statement": "$\\dfrac{34}{50} \\leq \\dfrac{2}{3}$","answer":false},
+    {"statement": "$\\dfrac{42}{65} \\leq \\dfrac{2}{3}$","answer":true},
+    {"statement": "$\\dfrac{1}{7} + \\dfrac{7}{9} \\leq 1$","answer":true},
+    {"statement": "$\\dfrac{5}{12} + \\dfrac{2}{3} \\leq 1$","answer":false},
+    {"statement": "$\\dfrac{5}{12} + \\dfrac{5}{8} \\geq 1$","answer":true},
+    {"statement": "$\\dfrac{7}{10} + \\dfrac{2}{7} \\geq 1$","answer":false},
+    {"statement": "$\\dfrac{7}{12} + \\dfrac{3}{8}  = \\dfrac{23}{24}$","answer":true},
+    {"statement": "$\\dfrac{5}{4} + \\dfrac{7}{10}  = \\dfrac{29}{20}$","answer":false},
+    {"statement": "$\\dfrac{a}{b}+ \\dfrac{c}{d} =\\dfrac{a+c}{b+d}$","answer":false},
+    {"statement": "$\\dfrac{a}{b}+ \\dfrac{c}{d} =\\dfrac{ab+cd}{b+d}$","answer":false},
+    {"statement": "$\\dfrac{a}{b}+ \\dfrac{c}{d} =\\dfrac{ab+cd}{bd}$","answer":false},
+    {"statement": "$\\dfrac{a}{b}+ \\dfrac{c}{d} =\\dfrac{ad+bc}{bd}$","answer":true},
+    {"statement": "$\\dfrac{1}{n}+ \\dfrac{1}{n+1} =\\dfrac{1}{n(n+1)}$","answer":false},
+    {"statement": "$\\dfrac{1}{n}- \\dfrac{1}{n+1} =\\dfrac{1}{n(n+1)}$","answer":true},
+    {"statement": "$\\dfrac{n+1}{n^2-1} =\\dfrac{1}{n-1}$","answer":true}
+]
