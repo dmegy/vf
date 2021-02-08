@@ -57,6 +57,7 @@ var listeThemes=[
 	{"fichier":"complexes3","etiquette":"ℂ (module)","badges":[]},
 	{"fichier":"complexes4","etiquette":"ℂ (géométrie)","badges":[]},
 	{"fichier":"module_un","etiquette":"𝕌 et 𝕌<sub>n</sub>","badges":[]},
+	{"fichier":"todo/rotations","Rotations","badges":[]},
 	{"fichier":"implication","etiquette":"Implication","badges":[]},
 	{"fichier":"predicats","etiquette":"Prédicats","badges":[]},
 	{"fichier":"quantificateurs","etiquette":"Quantificateurs","badges":[]},
