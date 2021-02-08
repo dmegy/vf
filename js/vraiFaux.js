@@ -393,6 +393,5 @@ function demarrage(){
 	// --- MATHJAX
 	$('#accueil').append('<span id="secret" style="visibility:hidden">Test MathJax: $\\int_{\\mathbb R} e^{-x^2} dx = \\sqrt\\pi$.<br></span>'); // formule mathématique invisible
 	actualiserMathJax(); //chargement et rendu du test invisible
-	// --- compteur (masqué) :
-	$('#secret').append('<img src="php/compteur.php" width="2" height="2">');
+	
 }
