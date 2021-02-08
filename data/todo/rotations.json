@@ -10,7 +10,7 @@
 		"answer":true},
 	{"statement": "Soit $f:\\mathcal P\\to \\mathcal P$. L'assertion «$\\exists \\Omega\\in\\mathcal P, \\exists \\theta\\in\\mathbb R, \\forall z\\in\\mathbb C, \\tilde f(z)=e^{i\\theta}(z-\\omega)+\\omega$.» signifie que $f$ est la rotation de centre $\\Omega$ et d'angle $\\theta$.",
 		"answer":false},
-	{"statement": "Soit $f:\\mathcal P\\to \\mathcal P$. L'assertion «$f$ est une rotation de centre $\\Omega» signifie «$\\exists \\theta\\in\\mathbb R, \\forall z\\in\\mathbb C, \\tilde f(z)=e^{i\\theta}(z-\\omega)+\\omega$.»",
+	{"statement": "Soit $f:\\mathcal P\\to \\mathcal P$. L'assertion «$f$ est une rotation de centre $\\Omega$» signifie «$\\exists \\theta\\in\\mathbb R, \\forall z\\in\\mathbb C, \\tilde f(z)=e^{i\\theta}(z-\\omega)+\\omega$.»",
 		"answer":false,
 		"comment":"$\\Omega$ n'a pas été défini."},
 	{"statement": "Soit $f:\\mathcal P\\to \\mathcal P$ et soit $\\Omega\\in\\mathcal P$. L'assertion «$f$ est une rotation de centre $\\Omega$» signifie «$\\exists \\Omega\\in\\mathcal P, \\exists \\theta\\in\\mathbb R, \\forall z\\in\\mathbb C, \\tilde f(z)=e^{i\\theta}(z-\\omega)+\\omega$.»",
