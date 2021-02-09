@@ -10,17 +10,17 @@
 var etat = 'accueil';
 // Variable d'état de l'application.
 // Peut prendre les valeurs : 'accueil', 'chargement', 'info', 'jeu', 'resultats', 'correction', 'fin'.
-// Elle détermine ce qui doit être affiché ou pas (voir le template)
+// Elle détermine ce qui doit être affiché ou pas (voir le template dans index.html)
 
-var stats = {loc: {}, theme: {}, glob : {} }; // différentes contextes de stats
+var stats = {loc: {}, theme: {}, glob : {} }; // différentes contextes de stats : loc pour la série en cours de 4 questions, theme pour le thème, glob pour tout ce qui a été fait dans la session
 
 // pour les bonus:
 var combo = 0; // barre de combo : nb de réponses correctes depuis la dernière faute
 var bonus = {total:0,liste:[],html:""}; // infos sur les bonus
 
-var nbQuestions = 4; // nb de questions à afficher dans chaque partie
+var nbQuestions = 4; // nb de questions à afficher dans chaque "partie" (série courte de nbQuestions d'un thème)
 var data = []; // le pointeur vers l'objet courant contenant les questions, 
-var themes = []; // le tableau qui contient les thèmes
+var themes = []; // le tableau qui contient les thèmes avec toutes les données dedans.
 var t = {"nom":"","info":"","data":[]}; // le thème choisi
 var c = "loc"; // contexte actuel d'affichage de stats, peut aussi valoir "theme", ou "glob" ?
 
@@ -100,7 +100,7 @@ function afficherThemes(){
 			}
 		}
 	}
-	actualiserMathJax();//latex dans les boutons ?
+	actualiserMathJax();//latex dans les boutons ? Éviter, préférer unicode.
 }
 
 
@@ -168,7 +168,8 @@ function nouvellePartie(){
 }
 
 function resultats(){
-	//etat="resultats"; // commenter pour version "rapide"
+	// affiche les pots et bonus gagnés après chaque mini-série. Casse un peu le rythme. Commenter pour version "rapide"
+	// etat="resultats"; 
 	resultatsLoc=[];
 	for(var i=0;i<liste.length;i++){
 		resultatsLoc[i]=0;
@@ -389,7 +390,9 @@ function demarrage(){
 
 
 	// --- FONT-AWESOME
-  $("head").append($("<link rel='stylesheet' href='http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css' type='text/css' media='screen' />"));
+  $("head").append($("<link rel='stylesheet' href='css/font-awesome.min.css' type='text/css' media='screen' />"));
+  // sinon http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css
+
 	// --- MATHJAX
 	$('#accueil').append('<span id="secret" style="visibility:hidden">Test MathJax: $\\int_{\\mathbb R} e^{-x^2} dx = \\sqrt\\pi$.<br></span>'); // formule mathématique invisible
 	actualiserMathJax(); //chargement et rendu du test invisible

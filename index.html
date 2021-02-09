@@ -49,11 +49,9 @@
 		<h4>Bienvenue</h4>
 		<p>Cette appli de vrai/faux a été codée à la fois pour les étudiants de L1 de Nancy et pour les élèves du <a href="http://depmath-nancy.univ-lorraine.fr/club/" target="_blank">Club Mathématique de Nancy</a>.</p>
 		<h4><i class="fa fa-info"></i> Règles du jeu</h4>
-		<p>Chaque réponse correcte rapporte un point, chaque réponse incorrecte enlève un point. Des bonus importants sont octroyés pour des suites de bonnes réponses consécutives.</p>
-		<p>Les points sont sauvegardés uniquement lorsqu'un thème est terminé avec une note de plus de 5/20. Vous avez pour l'instant sauvegardé <span class="sync emph" data-action="html" data-param="heritage">?</span> points.  <!--Le record actuel de points est de <span class="sync emph" data-action="html" data-param="record">?</span> points. --></p>
-
-		<p><button  class="btn btn-primary btn-block btn-lg"  onclick="afficherThemes()">
-		<i class="fa fa-arrow-right"></i> Commencer </button></p>
+		<p>Chaque réponse correcte rapporte un point, chaque réponse incorrecte enlève un point. Des bonus (importants) sont octroyés pour des suites de 	bonnes réponses consécutives.</p>
+		<p>Les points sont sauvegardés (localement) uniquement lorsqu'un thème est terminé avec une note de plus de 5/20. Vous avez pour l'instant 	sauvegardé <span class="sync emph" data-action="html" data-param="heritage">?</span> points.</p>
+		<p><button  class="btn btn-primary btn-block btn-lg"  onclick="afficherThemes()"><i class="fa fa-arrow-right"></i> Commencer </button></p>
 		
 	</div> <!-- - - - - / A C C U E I L - - - - - -->
 
@@ -147,20 +145,7 @@
 	<!-- - - - - R E S U L T A T S   E T   F I N  - - - - - -->
 	<div class="sync" data-action="toggle" data-param="etat=='fin'" style="display:none; width:100%">
 		<h1>
-			<i class="fa fa-flag-checkered"></i> Fin<br>
-			<span class="sync"  data-action="html" data-param="stats.theme.note"></span>/20
-			<!-- icône suivant le résultat-->
-			<span class="sync"  data-action="toggle" data-param="(stats.theme.note==20)">
-			<i class="fa fa-trophy"></i></span>
-			<span class="sync"  data-action="toggle" data-param="(stats.theme.note<20&&stats[c].note>=15)">
-			<i class="fa fa-smile-o"></i></span>
-			<span class="sync"  data-action="toggle" data-param="(stats.theme.note<15&&stats[c].note>=10)">
-			<i class="fa fa-meh-o"></i></span>
-			<span class="sync"  data-action="toggle" data-param="(stats.theme.note<10)">
-			<i class="fa fa-frown-o"></i></span>
-			<span class="sync"  data-action="toggle" data-param="(stats.theme.note==0)">
-			<i class="fa fa-frown-o"></i></span>
-			<!-- / icône -->
+			<i class="fa fa-flag-checkered"></i> Thème terminé !
 		</h1>
 	<p>
 		<i class="fa fa-clock-o"></i> Temps écoulé : 
@@ -189,6 +174,23 @@
    		<tbody class="table table-condensed sync" data-action="html" data-param="bonus.html">
    		</tbody>
    	</table>
+   	<p>Note (tenant compte des points négatifs): 
+   		<h1>
+   			<span class="sync"  data-action="html" data-param="stats.theme.note"></span>/20
+			<!-- icône suivant le résultat-->
+			<span class="sync"  data-action="toggle" data-param="(stats.theme.note==20)">
+			<i class="fa fa-trophy"></i></span>
+			<span class="sync"  data-action="toggle" data-param="(stats.theme.note<20&&stats[c].note>=15)">
+			<i class="fa fa-smile-o"></i></span>
+			<span class="sync"  data-action="toggle" data-param="(stats.theme.note<15&&stats[c].note>=10)">
+			<i class="fa fa-meh-o"></i></span>
+			<span class="sync"  data-action="toggle" data-param="(stats.theme.note<10)">
+			<i class="fa fa-frown-o"></i></span>
+			<span class="sync"  data-action="toggle" data-param="(stats.theme.note==0)">
+			<i class="fa fa-frown-o"></i></span>
+		<!-- / icône -->
+		</h1> 
+   	</p>
    	
    	
 
