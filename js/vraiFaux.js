@@ -31,44 +31,10 @@ var heritage = 0; // points des parties précédentes, sauvegardés dans le loca
 // (Si géré par le navigateur et si les cookies ne sont pas bloqués par l'utilisateur.)
 var record=0; // record de points enregistré sur le serveur. Récupéré dans un fichier texte en ajax au démarrage
 
+// largeur des barres d'avancement des thèmes :
 var largeurVerte={"width":"0%"};
 var largeurJaune={"width":"0%"};
 var largeurRouge={"width":"0%"};
-
-
-var listeThemes=[
-	{"fichier":"quadrilateres","etiquette":"Quadrilatères","badges":[]},
-	{"fichier":"calcul1","etiquette":"Calcul mental et logique","badges":[]},
-	{"fichier":"fractions1","etiquette":"Fractions","badges":[]},
-	{"fichier":"factorisation","etiquette":"Factorisation","badges":[]},
-	{"fichier":"arithmetique1","etiquette":"Arithmétique 1","badges":[]},
-	{"fichier":"systemes_lin","etiquette":"Systèmes","badges":[]},
-	{"fichier":"droites","etiquette":"Droites","badges":[]},
-	{"fichier":"domaines1","etiquette":"Domaines de déf°","badges":[]},
-	{"fichier":"inegalites1","etiquette":"Inégalités","badges":[]},
-	{"fichier":"trigo1","etiquette":"Trigo 1","badges":[]},
-	{"fichier":"trigo2","etiquette":"Trigo 2","badges":[]},
-	{"fichier":"derivees1","etiquette":"Dérivées 1","badges":[]},
-	{"fichier":"derivees2","etiquette":"Dérivées 2","badges":[]},
-	{"fichier":"complexes1","etiquette":"ℂ (forme alg)","badges":[]},
-	{"fichier":"complexes2","etiquette":"ℂ (argument)","badges":[]},
-	{"fichier":"equations","etiquette":"Équations","badges":[]},
-	{"fichier":"recap","etiquette":"Récap","badges":[]},
-	{"fichier":"complexes3","etiquette":"ℂ (module)","badges":[]},
-	{"fichier":"complexes4","etiquette":"ℂ (géométrie)","badges":[]},
-	{"fichier":"module_un","etiquette":"𝕌 et 𝕌<sub>n</sub>","badges":[]},
-	{"fichier":"todo/rotations","etiquette":"Rotations","badges":[]},
-	{"fichier":"implication","etiquette":"Implication","badges":[]},
-	{"fichier":"predicats","etiquette":"Prédicats","badges":[]},
-	{"fichier":"quantificateurs","etiquette":"Quantificateurs","badges":[]},
-	{"fichier":"analyse1","etiquette":"Analyse","badges":[]},
-	{"fichier":"applications1","etiquette":"Applications","badges":[]},
-	{"fichier":"trigo3","etiquette":"Trigo 3","badges":[]},
-	{"fichier":"trigo4","etiquette":"Trigo 4","badges":[]},
-	{"fichier":"ev","etiquette":"Esp. vectoriels","badges":[]},
-	{"fichier":"applications_lin","etiquette":"App. linéaires","badges":[]},
-	{"fichier":"matrices","etiquette":"Matrices","badges":[]}
-];
 
 
 // - - - - - - F O N C T I O N S - - - - - - - - 
@@ -389,11 +355,11 @@ function demarrage(){
 	actualiserAffichage(); // pour afficher les points sauvegardés
 
 
-	// --- FONT-AWESOME
-  $("head").append($("<link rel='stylesheet' href='css/font-awesome.min.css' type='text/css' media='screen' />"));
+	// --- FONT-AWESOME : icônes
+  $("head").append($("<link rel='stylesheet' href='http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css' type='text/css' media='screen' />"));
   // sinon http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css
 
-	// --- MATHJAX
+	// --- MATHJAX : test invisible d'une formule
 	$('#accueil').append('<span id="secret" style="visibility:hidden">Test MathJax: $\\int_{\\mathbb R} e^{-x^2} dx = \\sqrt\\pi$.<br></span>'); // formule mathématique invisible
 	actualiserMathJax(); //chargement et rendu du test invisible
 	
